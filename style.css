@@ -18,7 +18,7 @@ li a {
 }
 
 li a:hover {
-  border--purple;
+  border-color: purple;
 }
 #leftside{
   float: left;
