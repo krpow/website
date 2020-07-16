@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: purple;
+  background-color: white;
 }
 
 li {
@@ -12,18 +12,18 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: white;
   padding: 15px 20px;
   text-decoration: none;
 }
 
 li a:hover {
-  border-color: purple;
+  border-color: gray;
 }
 #leftside{
   float: left;
 }
 #active{
-  background-color: purple;
+  background-color: gray;
   color: black;
 }
