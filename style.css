@@ -10,6 +10,10 @@ li {
   float: right;
 }
 
+lic {
+  float: center;
+}
+
 li a {
   display: block;
   color: black;
