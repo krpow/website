@@ -10,9 +10,7 @@ li {
   float: right;
 }
 
-lic {
-  float: center;
-}
+
 
 li a {
   display: block;
@@ -26,6 +24,10 @@ li a:hover {
 }
 #leftside{
   float: left;
+}
+
+#center {
+  float: center;
 }
 #active{
   background-color: gray;
