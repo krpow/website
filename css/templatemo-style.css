@@ -466,7 +466,7 @@ a:hover, a:active, a:focus {
 }
 
 #education .education-img {
-  background: url('../images/education-img.jpg') no-repeat;
+  background: url('images/education-img.jpg') no-repeat;
 }
 
 #education .media-heading {
@@ -490,10 +490,10 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #quotes {
-    background: url('../images/quotes-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('Images/quotes-bg.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
-    color: #ffffff;
+    color: #886D1E;
     position: relative;
     padding: 100px 0px;
 }
