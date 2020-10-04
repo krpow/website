@@ -58,31 +58,46 @@ http://www.templatemo.com/tm-498-stimulus
 
      </div>
 </div>
-    <h1>
-      <center>Building a Model to Classify Spam/Ham Emails</center>
-    </h1>
-    <BLOCKQUOTE><BLOCKQUOTE><BLOCKQUOTE><BLOCKQUOTE><BLOCKQUOTE><BLOCKQUOTE><BLOCKQUOTE><BLOCKQUOTE>
-      In this class project, I built a classifier that could distinguish between spam and ham(non-spam) emails. <br><br>
-      I first divided the dataset into a training and test dataset. Then, I checked the data for any missing values. If a cell had a missing value, I would fill 
-      them with the appropriate value like empty cells in the "subject" column would be replaced with empty strings. <br><br>
-      
-       <img src="https://drive.google.com/uc?export=view&id=1ynIFRfnudM3XcaQYFPvl9qH0J5h2-SeE" width="700" height="300"><br>
-      When looking at some spam and ham emails in the training data, I noticed that the subject line for a ham email is usually longer than a spam email.<br><br>
-      <h2>Evaluating Classifiers</h2>
-      I needed to identify which features would be helpful to distinguish spam emails from ham emails. I first looked at the number of characters in the subject and
-      number of words in emails of spam emails compared to ham emails, creating a conditional density plot. I also looked at other possible features that could help
-      distinguish between ham and spam emails like punctuation and captial letters. Looking at the plots, it is very hard to see how some features could help to 
-      determine whether an email was spam or not. I was surprised to see that spam and ham emails were about the same length, so length of emails was not a good 
-      feature. I was surprised that spam emails were more likely to have more ! in the email.<br><br>
-      
-       <img src="https://drive.google.com/uc?export=view&id=1jFLPb_qtJ-8SBo18BbSnIr022OQspt9r" width="40000" height="300"><br>
-      Once finding the best features for distinguishing the two kinds of emails, I was able to create a logistic regression model to predict spam and ham emails 
-      with a training accuracy of 0.91.<br><br>
-      I also created a heat map to look at the correlation between the words I picked for my logistic regression model.<br><br>
+	<!-- writing -->
+	<div class="container">
+			<div class="row">
+				<div>
+				<div class="home-thumb">
+					<div class="section-title">
+						<br><br><br>
+                              <h4 class="wow fadeInUp" data-wow-delay="0.3s">Building a Model to Classify Spam/Ham Emails</h4>
+                              <p class="wow fadeInUp" data-wow-delay="0.9s">n this class project, I built a classifier that could 
+				      distinguish between spam and ham(non-spam) emails. </p>
+      				<p>I first divided the dataset into a training and test dataset. Then, I checked the data for any 
+					missing values. If a cell had a missing value, I would fill them with the appropriate value
+					like empty cells in the "subject" column would be replaced with empty strings.</p>
+				<p>First off, when cleaning the data, I noticed that there were errors in the data. For example, I had to make sure that the zip 
+					codes were actually valid SF postal codes and that the restaurant names followed the same format like having the first letter capitalized.</p>
+				<img src="https://drive.google.com/uc?export=view&id=1ynIFRfnudM3XcaQYFPvl9qH0J5h2-SeE" width="700" height="300">
+     				<p>When looking at some spam and ham emails in the training data, I noticed that the subject line 
+					for a ham email is usually longer than a spam email.</p>
+				  <h2>Evaluating Classifiers</h2>
+				<p>I needed to identify which features would be helpful to distinguish spam emails from ham emails. 
+					I first looked at the number of characters in the subject and number of words in emails of 
+					spam emails compared to ham emails, creating a conditional density plot. I also looked at other 
+					possible features that could help distinguish between ham and spam emails like punctuation and 
+					captial letters. Looking at the plots, it is very hard to see how some features could help to 
+					determine whether an email was spam or not. I was surprised to see that spam and ham emails were 
+					about the same length, so length of emails was not a good feature. I was surprised that spam emails
+					were more likely to have more ! in the email.</p>
+					<img src="https://drive.google.com/uc?export=view&id=1jFLPb_qtJ-8SBo18BbSnIr022OQspt9r" width="40000" height="300">
+      				<p>Once finding the best features for distinguishing the two kinds of emails, I was able to create a logistic 
+					regression model to predict spam and ham emails with a training accuracy of 0.91.<br><br>
+					I also created a heat map to look at the correlation between the words I picked for my logistic regression model.</p>
+				 <img src="https://drive.google.com/uc?export=view&id=1vicYdaPji6evz0OMIx1cp0W14q9cBsQe" width="300" height="300">
+					</div>
+					
+                    </div>
+               </div>
+          </div>
+     </div>
+     
 
-      <img src="https://drive.google.com/uc?export=view&id=1vicYdaPji6evz0OMIx1cp0W14q9cBsQe" width="300" height="300"><br>
-      
-       </BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
 	<!-- Footer Section -->
 
 <footer>
