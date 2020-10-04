@@ -1,0 +1,39 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+}
+
+
+
+li a {
+  display: block;
+  color: black;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  border-color: gray;
+}
+#leftside{
+  float: left;
+}
+
+#center {
+  float: center;
+}
+#active{
+  background-color: gray;
+  color: black;
+}
+
+.small {
+  line-height: 3;
+}
