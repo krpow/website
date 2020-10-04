@@ -493,13 +493,13 @@ a:hover, a:active, a:focus {
     background: url('Images/quotes-bg.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
-    color: #886D1E;
+    color: #ffffff;
     position: relative;
     padding: 100px 0px;
 }
 
 #quotes .overlay {
-    background: #121212;
+    background: #E3AE57;
     width: 100%;
     height: 100%;
     position: absolute;
